@@ -13,7 +13,6 @@ const posts = (await getCollection('blog')).sort((a, b) => a.data.pubDate.valueO
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 		<style>
 			ul {
 				list-style-type: none;
